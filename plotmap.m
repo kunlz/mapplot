@@ -78,7 +78,7 @@ m_grid('linewi',1,'tickdir','in',... % set line
 caxis(k)
 
 % set the location of colorbar
-h = colorbar('southoutside');
+h = colorbar('eastoutside');
 set(h,'FontName','Times New Roman','FontSize',fontsize);
 set(get(h,'xlabel'),'String',labelname,...
     'FontName','Times New Roman','FontSize',fontsize);
